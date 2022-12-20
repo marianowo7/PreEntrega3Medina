@@ -3,7 +3,8 @@ header {
   flex-direction: column;
   background-color: $bg-color;
   font-weight: bold;
-  #header_logo-inner {
+  #header_logo-inner,
+  #header_logo-innerlink {
     display: flex;
   }
   #header_logo {
