@@ -3,13 +3,15 @@ header {
   flex-direction: column;
   background-color: $bg-color;
   font-weight: bold;
-  #header_logo-inner {
+  #header_logo-inner,
+  #header_logo-innerlink {
     display: flex;
   }
   #header_logo {
     display: flex;
     padding: 15px;
     gap: 15px;
+    align-items: center;
   }
   .logo_name {
     justify-content: center;

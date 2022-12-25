@@ -27,13 +27,15 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
-header #header_logo-inner {
+header #header_logo-inner,
+header #header_logo-innerlink {
   display: flex;
 }
 header #header_logo {
   display: flex;
   padding: 15px;
   gap: 15px;
+  align-items: center;
 }
 header .logo_name {
   justify-content: center;
@@ -97,6 +99,7 @@ header ul li a {
 }
 .container .main_info .redes_contacto {
   display: flex;
+  align-items: center;
 }
 .container .main_info .redes_contacto-img {
   padding-top: 5px;
@@ -221,6 +224,9 @@ header ul li a {
   .container .main_info #nosotros_side {
     align-items: center;
     padding: 15px;
+  }
+  .container .productos {
+    gap: 150px;
   }
   .container .index {
     display: flex;
