@@ -10,21 +10,17 @@
     gap: 15px;
     /* productos */
     .producto_card {
-      display: flex;
-      background-color: white;
-      color: black;
-      padding: 5px;
-      font-size: 16px;
-      gap: 15px;
-      #producto_img {
-        width: 100px;
-      }
-      .buy_but {
-        background-color: black;
-        border: none;
-        color: white;
-        padding: 10px;
-      }
+      @include producto-card;
+    }
+
+    #producto_img {
+      width: 100px;
+    }
+    .buy_but {
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 10px;
     }
 
     //contacto
